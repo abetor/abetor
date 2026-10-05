@@ -1,27 +1,17 @@
-# Nikita K.
+# abetor
 
-Senior backend engineer: Go, Python, PostgreSQL. Since 2019 in B2B collaboration software;
-since late 2025 building AI tooling and agent systems.
+Senior Backend Engineer | Go, PHP, Python | AI Systems
 
-I build local-first tools where coding agents do the implementation and the system keeps
-the evidence: isolated worktrees, review of the real staged diff, deterministic gates,
-durable state that survives a killed process.
+I build corporate SaaS products and have worked in backend engineering since 2019.
+My recent work focuses on applied AI systems, from architecture through implementation and validation.
 
-**Start here**
+- **AI content moderation:** LLM orchestration and evaluation, policy engines and human review, using Python, PostgreSQL and Kafka.
+- **Content generation:** built and publicly launched an AI product for SEO content, with structured generation, LLM cost accounting and external API integrations.
+- **Backend systems:** commercial Go/PHP experience in corporate communications, including event processing, observability and data migration.
 
-- [rig](https://github.com/abetor/rig) - coding-agent orchestration: one Git worktree per task,
-  reviewer panel on the staged diff, command gates, SQLite recovery. Offline acceptance test,
-  no model credentials needed.
-- [researcher](https://github.com/abetor/researcher) - resumable research pipeline: sources,
-  claims, evidence, wiki pages; resumes after quota and process failures.
-- [llm-wiki](https://github.com/abetor/llm-wiki) - the schema-validated knowledge store behind
-  researcher: atomic writes, reference checks, quote verification, no database.
+Some of my development tools are public:
+[rig](https://github.com/abetor/rig) for coding-agent orchestration,
+[researcher](https://github.com/abetor/researcher) for resumable research,
+and [llm-wiki](https://github.com/abetor/llm-wiki) for a structured knowledge store.
 
-Supporting tools: [bridge](https://github.com/abetor/bridge) (detached Claude Code / Codex jobs),
-[scheduler](https://github.com/abetor/scheduler) (local job supervisor with retries and quota waits),
-[gateway](https://github.com/abetor/gateway) (Telegram and webhook gateway with audit receipts).
-
-How I work: I own architecture, task definition, review and acceptance; agents implement.
-Every repository ships a runnable demo and a test suite running in CI.
-
-Open to remote contracts. molaytuh@gmail.com · [abetor.github.io](https://abetor.github.io)
+Open to remote opportunities. [molaytuh@gmail.com](mailto:molaytuh@gmail.com) | [abetor.github.io](https://abetor.github.io)
