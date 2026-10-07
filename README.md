@@ -1,4 +1,4 @@
-# abetor
+# Nikita
 
 Senior Backend Engineer | Go, PHP, Python | AI Systems
 
