@@ -14,4 +14,6 @@ Some of my development tools are public:
 [researcher](https://github.com/abetor/researcher) for resumable research,
 and [llm-wiki](https://github.com/abetor/llm-wiki) for a structured knowledge store.
 
+English: B2 ([EF SET](https://cert.efset.org/en/ynZNXc), 54/100, October 2026).
+
 Open to remote opportunities. [nikita.abetor@gmail.com](mailto:nikita.abetor@gmail.com) | [Telegram](https://t.me/nikita_abetor) | [abetor.github.io](https://abetor.github.io)
