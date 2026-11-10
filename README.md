@@ -1,25 +1,25 @@
 # Nikita
 
-AI-First Senior Backend Engineer | Go, PHP, Python | LLM Systems
+Senior Backend Engineer | Go, PHP, Python | AI Systems
 
-Senior backend engineer building corporate SaaS since 2019. I independently design
-and build complete AI systems. I use Claude Code and Codex for implementation,
-owning architecture, task specifications, review and delivery.
+Backend engineer in corporate SaaS since 2019. I design and build distributed
+services and AI products, with responsibility for data models, execution,
+resource controls, recovery and delivery.
 
-- **AI moderation system:** independently designed and built Kafka/API intake, rule-based and LLM-backed decisions, versioned policies, incidents and moderator workflows; brought it to staging. Built custom load-testing producers/consumers, processing telemetry, evals, CI and verified delivery.
-- **SEO content product:** independently designed, built and publicly launched the full workflow from competitor-page analysis and planning to generation with evaluation feedback, HTML-template assembly and editing. Implemented LLM cost accounting, quotas and S2S integrations.
-- **Distributed AI job platform:** independently designed and built a Go platform for long-running jobs, with durable execution state, workers, outbox-based events and deduplication, limits, quotas, recovery and observability. Built integration environments and automated checks; pre-production.
-- **Agentic website pipeline:** built and tested the path from a source website to a complete multi-page repository: crawling, facts with provenance, coding-agent generation, builds, content/link checks, screenshots and review. Durable run state and Git checkpoints support resume; internal alpha.
+- **Text moderation:** designed the platform from Kafka/API intake to decisions and human review. Built versioned policies, shared model-capacity controls, load testing and telemetry. Verified recovery after a six-minute database outage at 100 incoming events/s and interrupted updates that preserved existing data.
+- **SEO product:** independently designed, built and publicly launched a Python product for competitor analysis, generation and editing. Implemented evaluation feedback, task-level model cost accounting, quotas and service integrations.
+- **Distributed job execution:** designed a Go platform for long-running AI workloads, separating intake, durable execution state and workers. Built transactional event delivery, retry deduplication, shared quotas and recovery, with integration environments and processing telemetry.
+- **Website generation:** built a coding-agent pipeline from source-site analysis to a complete multi-page repository, including build and content checks. Durable state and Git checkpoints let interrupted workflows resume.
 
-My commercial Go/PHP experience includes corporate SaaS and messenger backends,
-event processing, observability and data migration.
+My commercial backend work includes a Go activity-analytics service, log and
+metric collection, and complete data migration from Slack into a messenger,
+preserving users, messages, files, threads and their relationships.
 
-I keep architecture and acceptance decisions with the engineer. Coding agents work
-within scoped tasks, with explicit checks, independent review and human-controlled
-merges and releases. Some of my development tools are public:
-[rig](https://github.com/abetor/rig) for coding-agent orchestration,
-[researcher](https://github.com/abetor/researcher) for resumable research,
-and [llm-wiki](https://github.com/abetor/llm-wiki) for a structured knowledge store.
+I use Claude Code and Codex with scoped tasks, independent review and automated
+checks. Architecture, acceptance and release decisions remain my responsibility.
+Public tools: [rig](https://github.com/abetor/rig) for coding-agent orchestration,
+[researcher](https://github.com/abetor/researcher) for resumable research, and
+[llm-wiki](https://github.com/abetor/llm-wiki) for a structured knowledge store.
 
 English: B2.
 
