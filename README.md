@@ -1,28 +1,42 @@
 # Nikita
 
-AI-First Senior Software Engineer | Backend & AI Systems
+**AI-First Senior Software Engineer | Go, Python | AI Products**
 
-AI-first software engineer in corporate SaaS since 2019. I independently take
-systems from requirements and architecture to a working product. I define contracts,
-resource limits and acceptance criteria, direct coding agents, and own design
-decisions, integration and delivery.
+Software engineer with 7+ years of experience building B2B SaaS products and
+distributed backend systems. My work spans high-load services, platform
+modernization, integrations and independently launched AI products. I use coding
+agents throughout development and take responsibility for architecture, quality
+and product launches.
 
-- **Text moderation:** designed the platform from Kafka/API intake to decisions and human review. Defined module contracts and acceptance criteria, independent agent reviews and release checks. Built versioned policies, model-capacity controls and processing telemetry. Verified recovery after a six-minute database outage at 100 incoming events/s and interrupted updates that preserved existing data.
-- **SEO product:** independently designed, built and publicly launched a Python product for competitor analysis, generation and editing. Implemented evaluation feedback, task-level model cost accounting, quotas and service integrations.
-- **Distributed job execution:** designed a Go platform for long-running AI workloads, separating intake, durable execution state and workers. Built transactional event delivery, retry deduplication, shared quotas and recovery, with integration environments and processing telemetry.
-- **Website generation:** built a coding-agent pipeline from source-site analysis to a complete multi-page repository, including build and content checks. Durable state and Git checkpoints let interrupted workflows resume.
+## Selected work
 
-My commercial backend work includes a Go activity-analytics service, log and
-metric collection, and complete data migration from Slack into a messenger,
-preserving users, messages, files, threads and their relationships.
+- **AI product engineering:** built and publicly launched a content automation SaaS platform from scratch, covering architecture, backend, UI, infrastructure, partner APIs and model usage tracking.
+- **High-load moderation:** designed a Python/Kafka/PostgreSQL platform combining streaming events, synchronous API checks and moderator workflows, with priorities, backpressure and shared LLM capacity management.
+- **Agentic engineering:** built independent AI code-review agents for coding standards, security, performance and architecture. Developed regression evaluation and model routing, reducing token consumption by 26%.
+- **Enterprise platform modernization:** consolidated fragmented PHP modules into a modular backend. Redesigned hot-path caching from MySQL to Memcached, reducing average response time for a key API from 450 to 85 ms.
+- **Distributed systems:** built a Go platform for long-running AI workflows and a shared service framework for HTTP/gRPC, data access, observability and resilience.
 
-I use Claude Code and Codex with scoped tasks, independent review and automated
-checks. Architecture, acceptance and release decisions remain my responsibility.
-I also prepare technical documentation and have delivered talks on development
-with coding agents. Public tools: [rig](https://github.com/abetor/rig) for coding-agent orchestration,
-[researcher](https://github.com/abetor/researcher) for resumable research, and
-[llm-wiki](https://github.com/abetor/llm-wiki) for a structured knowledge store.
+Other independent products include an AI website builder with a shared content
+model and design system, and Solana automation for on-chain events, RPC interaction
+and transaction execution.
+
+## Engineering background
+
+Progressed from backend feature development into service architecture, integration
+frameworks, observability, release automation and mentoring. Built a Go/gRPC event
+processing service supporting up to 5k RPS, and reduced release preparation from
+15 to 8 minutes through GitLab CI/CD automation.
+
+**Backend:** Go, Python, PHP, SQL, FastAPI, REST, gRPC.  
+**Data:** PostgreSQL, MySQL, Redis, Memcached, Kafka, NATS JetStream, RabbitMQ.  
+**Infrastructure and quality:** Docker, Kubernetes, Helm, GitLab CI/CD, OpenTelemetry, Grafana, integration/E2E and load testing.  
+**AI:** LLM integration, agent orchestration, evaluation, model routing, Claude Code and Codex.
+
+Public tools: [rig](https://github.com/abetor/rig),
+[researcher](https://github.com/abetor/researcher), and
+[llm-wiki](https://github.com/abetor/llm-wiki).
 
 English: B2.
 
-Open to remote opportunities. [nikita.abetor@gmail.com](mailto:nikita.abetor@gmail.com) | [Telegram](https://t.me/nikita_abetor) | [abetor.github.io](https://abetor.github.io)
+Open to remote opportunities. [Email](mailto:nikita.abetor@gmail.com) |
+[Telegram](https://t.me/nikita_abetor) | [Website](https://abetor.github.io)
